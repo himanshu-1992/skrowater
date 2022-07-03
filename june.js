@@ -7,7 +7,7 @@ xhttp.onreadystatechange = function() {
 		for(var i = 0; i < user.length; i++) {
 			showdata += ' <div id=' + user[i].customername + ' class="userpost">';
 			//  showdata += '<h2>' + user[i].name + " </h2> <br>";	
-			showdata += '<h2><h9> Month(July) <br><i class="fa fa-user" aria-hidden="true"></i>&nbsp;Person Name </h9> <br>' + user[i].name + " </h2> ";
+			showdata += '<h2><h9> Month(June) <br><i class="fa fa-user" aria-hidden="true"></i>&nbsp;Person Name </h9> <br>' + user[i].name + " </h2> ";
 			showdata += '<div id="gridd">';
 			showdata += '<div>';
 			showdata += '	<table>';
