@@ -1,4 +1,3 @@
-<script>
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
 	if(this.readyState == 4 && this.status == 200) {
@@ -263,4 +262,3 @@ xhttp.onreadystatechange = function() {
 };
 xhttp.open("GET", "https://script.google.com/macros/s/AKfycbze7o3DRHwvVzXcpyThxjTq8x5vqa6POZov_DQXJ6lp8143VsNP4SF1nsjUJ7Q0_lbjGg/exec", false);
 xhttp.send();
-	</script>
